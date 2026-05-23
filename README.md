@@ -6,17 +6,19 @@ Two rivals on one device: enter names, play a full match, hit the terminal momen
 
 ## Setup
 
+Requires [pnpm](https://pnpm.io/) 11+ (esbuild postinstall must be allowed — already set in `pnpm-workspace.yaml`).
+
 ```bash
-npm install
+pnpm install
 ```
 
 ## Commands
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start Vite dev server — open the URL shown in the terminal |
-| `npm test` | Run Vitest once (28 tests) |
-| `npm run build` | Production build |
+| `pnpm dev` | Start Vite dev server — open the URL shown in the terminal |
+| `pnpm test` | Run Vitest once (28 tests) |
+| `pnpm build` | Production build |
 
 Add `?dev=1` to the URL for the metrics inspection panel during playtests (win completion, terminal resolution, rematch, and return rates).
 
