@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" fill="none">
+  
+  <g transform="translate(0,8)">
+    <rect x="2" y="2" width="60" height="60" fill="#08090C" stroke="#F4F6F9" stroke-width="1.5"></rect>
+    <line x1="22.7" y1="2" x2="22.7" y2="62" stroke="#F4F6F9" stroke-width="1.5"></line>
+    <line x1="41.3" y1="2" x2="41.3" y2="62" stroke="#F4F6F9" stroke-width="1.5"></line>
+    <line x1="2" y1="22.7" x2="62" y2="22.7" stroke="#F4F6F9" stroke-width="1.5"></line>
+    <line x1="2" y1="41.3" x2="62" y2="41.3" stroke="#F4F6F9" stroke-width="1.5"></line>
+    <path d="M8 8 L18 18 M18 8 L8 18" stroke="#FF3D6E" stroke-width="2" stroke-linecap="square"></path>
+    <circle cx="32" cy="32" r="5" stroke="#00E5C5" stroke-width="2" fill="none"></circle>
+    <path d="M46 46 L56 56 M56 46 L46 56" stroke="#FF3D6E" stroke-width="2" stroke-linecap="square"></path>
+  </g>
+  
+  <text x="84" y="54" font-family="&#39;JetBrains Mono&#39;, monospace" font-weight="700" font-size="42" letter-spacing="-1.6" fill="#F4F6F9">META<tspan fill="#FF3D6E">T</tspan><tspan fill="#00E5C5">O</tspan><tspan fill="#F4F6F9">E</tspan></text>
+  
+  <text x="84" y="74" font-family="&#39;JetBrains Mono&#39;, monospace" font-weight="500" font-size="11" letter-spacing="3" fill="#5F6772">// ULTIMATE TIC-TAC-TOE</text>
+</svg>
