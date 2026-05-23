@@ -1,7 +1,7 @@
 ---
 title: "feat: MetaToe playable MVP"
 type: feat
-status: active
+status: completed
 date: 2026-05-22
 origin: docs/brainstorms/2026-05-22-metatoe-mvp-playable-requirements.md
 ---

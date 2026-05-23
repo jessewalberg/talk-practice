@@ -124,7 +124,7 @@ There is no concrete evidence yet that friends will reach for MetaToe; v1 exists
 
 ## Dependencies / Assumptions
 
-- `design-system/MetaToe.html` is the authoritative UI spec; referenced `src/` React modules do not exist in the repo yet and must be implemented.
+- `design-system/MetaToe.html` is the authoritative UI spec; the playable app lives at repo root (`src/`) per [ADR-0001](../decisions/ADR-0001-vite-app-at-repo-root.md).
 - `STRATEGY.md` defines product intent, persona, metrics, and tracks; this MVP aligns to all three strategy tracks (presentation, rules engine, rivalry ritual).
 - v1 is a **bet to prove** demand — no prior user evidence that friends will prefer MetaToe over paper.
 - Pass-and-play on one device is the only supported interaction model in v1.
@@ -137,8 +137,10 @@ There is no concrete evidence yet that friends will reach for MetaToe; v1 exists
 
 _(none — synthesis confirmed)_
 
-### Deferred to Planning
+### Deferred to Planning (resolved 2026-05-22)
 
-- [Affects R9][Technical] How to structure the playable app while preserving the design-system assets (extend in place vs. separate app consuming the design tokens).
-- [Affects R10][Technical] Which motion moments are required for v1 vs. nice-to-have, mapped to specific UI states in `design-system/MetaToe.html`.
-- [Affects R11–R13][Technical] Where local session/metric data is stored and how rivals can inspect it during development playtests.
+Resolved in [implementation plan](../plans/2026-05-22-001-feat-metatoe-mvp-playable-plan.md) and [ADR-0001](../decisions/ADR-0001-vite-app-at-repo-root.md):
+
+- [R9] Root Vite app imports design-system tokens; layout CSS ported to `src/styles/app.css`.
+- [R10] Motion on moves and wins; confetti on win only; sound deferred.
+- [R11–R13] `localStorage` event log + `?dev=1` DevMetricsPanel for playtest inspection.

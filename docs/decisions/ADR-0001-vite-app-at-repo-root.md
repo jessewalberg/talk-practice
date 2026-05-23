@@ -49,6 +49,10 @@ Option 1: root-level Vite app consuming `design-system/` as the design source of
 - Minimal `README.md` with install/dev/test (U1).
 - Optional: keep `design-system/MetaToe.html` as static reference only (no sync requirement in v1).
 
+### Update 2026-05-22 (implemented)
+
+PR [#1](https://github.com/jessewalberg/talk-practice/pull/1) implements this ADR: Vite + React 18 + Vitest at repo root, `src/` consuming `design-system/`, pure `gameLogic.js`, phase reducer app, localStorage metrics. See [layered architecture learning](../solutions/architecture-patterns/metatoe-mvp-layered-architecture-2026-05-22.md).
+
 ## Sources
 
 - [Implementation plan](../plans/2026-05-22-001-feat-metatoe-mvp-playable-plan.md)

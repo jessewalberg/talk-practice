@@ -19,9 +19,11 @@ Win by leaning into a distinctive aesthetic that makes the session feel like an 
 
 ## Key metrics
 
-- **Match completion rate** — % of started games that reach a declared winner; measured in app analytics / session DB
-- **Immediate rematch rate** — % of completed matches followed by a rematch in the same session; measured in app analytics / session DB
-- **7-day rivalry return rate** — % of player pairs who start a new match within 7 days; measured in app analytics / session DB (local pair tracking for pass-and-play)
+v1 instruments these in **browser `localStorage`** (see `?dev=1` metrics panel during playtests). Future deploys may forward the same events to app analytics.
+
+- **Match completion rate** — % of started games that reach a declared winner (`winCompletionRate` in dev metrics); excludes draws and abandoned matches
+- **Immediate rematch rate** — % of completed matches (win or draw) followed by a rematch in the same session (`rematchRate`)
+- **7-day rivalry return rate** — % of player pairs who start a new match within 7 days (`returnRate`; 168h local pair tracking for pass-and-play)
 
 ## Tracks
 
